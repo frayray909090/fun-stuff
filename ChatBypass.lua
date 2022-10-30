@@ -1,4 +1,4 @@
-local Bypasses = loadstring(game:HttpGet(../Bypasses.lua))()
+local Bypasses = loadstring(game:HttpGet("https://raw.githubusercontent.com/frayray909090/fun-stuff/main/Bypasses.lua"))()
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Remote = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
